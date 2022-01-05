@@ -29,7 +29,13 @@
     "codeMode" : "sparse",
     "buildSystem" : "maven"
   },
-  "connections" : [ ],
+  "connections" : [ {
+    "id" : "501",
+    "source" : "Source_18501",
+    "sourcePort" : "10122",
+    "target" : "Reformat_28330",
+    "targetPort" : "19518"
+  } ],
   "processes" : {
     "Source_18501" : {
       "id" : "Source_18501",
@@ -37,8 +43,8 @@
       "metadata" : {
         "label" : "Source_0",
         "slug" : "Source_0",
-        "x" : 282,
-        "y" : 43,
+        "x" : 115,
+        "y" : 49,
         "language" : "scala",
         "phase" : 0
       },
@@ -51,6 +57,33 @@
         "selectedInputFields" : [ ]
       },
       "properties" : { }
+    },
+    "Reformat_28330" : {
+      "id" : "Reformat_28330",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1",
+        "slug" : "Reformat_1",
+        "x" : 369.5,
+        "y" : 113,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "19518",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "7782",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ ]
+      }
     }
   },
   "ports" : {
