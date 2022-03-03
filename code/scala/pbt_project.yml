@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W3:
+    name: W3
+    description: null
+    author: ayush+11@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-03 10:22:48'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
 schedules:
   schedules/Elias_Hansen:
