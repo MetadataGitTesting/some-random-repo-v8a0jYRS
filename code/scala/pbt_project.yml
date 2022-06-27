@@ -1,8 +1,10 @@
 name: deidre.keebler
 description: User fork
-version: 1
+version: 1-SNAPSHOT
 author: junie.konopelski@hotmail.com
-workflows:
+language: scala
+buildSystem: maven
+pipelines:
   workflows/W1:
     name: W1
     description: Really solid info
@@ -13,9 +15,10 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+    dependencies: {}
   workflows/Test-Workflow:
     name: Test-Workflow
-    description: null
+    description: ''
     author: sudhanshu@prophecy.io
     mode: batch
     language: scala
@@ -23,9 +26,10 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+    dependencies: {}
   workflows/W3:
     name: W3
-    description: null
+    description: ''
     author: ayush+11@simpledatalabs.com
     mode: batch
     language: scala
@@ -33,10 +37,24 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+    dependencies: {}
 datasets: {}
-schedules:
+templates: {}
+jobs:
   schedules/Elias_Hansen:
     name: Elias_Hansen
     description: Really solid info
+    fabricUID: null
+    scheduler:
+      Airflow: {}
+    jobSize: null
+    scheduleCron: null
+    timeout: null
+    alerting: null
+    pipelines: []
+    enabled: null
     createdAt: '2022-01-04 17:42:46'
     author: junie.konopelski@hotmail.com
+libraries: []
+subgraphs: {}
+dependencies: '[]'
