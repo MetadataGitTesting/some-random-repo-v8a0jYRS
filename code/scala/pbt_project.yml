@@ -1,5 +1,5 @@
 name: deidre.keebler
-description: User fork
+description: User fork a
 version: '2'
 author: junie.konopelski@hotmail.com
 language: scala
@@ -61,7 +61,11 @@ jobs:
     jobSize: null
     scheduleCron: null
     timeout: null
-    alerting: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
     pipelines: []
     enabled: null
     createdAt: '2022-01-04 17:42:46'
