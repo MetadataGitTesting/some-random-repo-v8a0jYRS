@@ -1,6 +1,6 @@
 name: deidre.keebler
-description: User fork a
-version: '2'
+description: User fork
+version: '10000'
 author: junie.konopelski@hotmail.com
 language: scala
 buildSystem: maven
