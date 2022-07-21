@@ -1,5 +1,5 @@
 name: deidre.keebler
-description: User fork
+description: User forkas
 version: '10000'
 author: junie.konopelski@hotmail.com
 language: scala
@@ -67,6 +67,7 @@ jobs:
       onSuccess: false
       onFailure: false
     pipelines: []
+    jobClusterMode: null
     enabled: null
     createdAt: '2022-01-04 17:42:46'
     author: junie.konopelski@hotmail.com
