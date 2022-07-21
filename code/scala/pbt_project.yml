@@ -1,6 +1,6 @@
 name: deidre.keebler
-description: User fork
-version: '10000'
+description: User forkadsa
+version: 10000-SNAPSHOT
 author: junie.konopelski@hotmail.com
 language: scala
 buildSystem: maven
@@ -67,6 +67,7 @@ jobs:
       onSuccess: false
       onFailure: false
     pipelines: []
+    jobClusterMode: null
     enabled: null
     createdAt: '2022-01-04 17:42:46'
     author: junie.konopelski@hotmail.com
